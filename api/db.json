@@ -1,0 +1,13 @@
+{
+  "employees": [
+    {
+      "firstName": "bobus",
+      "lastName": "mcginnus",
+      "email": "iminscotland@mate.edu",
+      "phoneNumber": "505-505-5050",
+      "birthday": "2019-02-03",
+      "department": "Da Beard",
+      "id": 1
+    }
+  ]
+}

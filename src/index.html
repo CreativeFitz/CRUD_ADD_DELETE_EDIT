@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport content=width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CRUD APPLICATION</title>
+  </head>
+  <body>
+
+      <fieldset>
+        <legend>New Employee</legend>
+        <div id=firstName>
+          <h3>First Name</h3>
+          <input placeholder="First Name" type="text" id="firstName-input">
+        </div>
+        <div id=lastName>
+          <h3>Last name</h3>
+          <input placeholder="Last Name" type="text"
+          id="lastName-input">
+        </div>
+        <div id="emailAddress">
+          <h3>Email Address</h3>
+          <input placeholder="Email Address" type="text" id="emailAddress-input">
+        </div>
+        <div id="phoneNumber">
+          <h3>Phone Number</h3>
+          <input placeholder="Phone Number" type="text" id="phoneNumber-input">
+        </div>
+        <div id="birthday">
+          <h3>Birthday</h3>
+          <input type="date" id="birthday-input">
+        </div>
+        <div id="department">
+          <h3>Department</h3>
+          <input placeholder="Department" type="text" id="department-input">
+        </div>
+        <button type=button id="addEmployee-btn">Save New Employee</button>
+      </fieldset>
+
+      <div id="listOfEmployees-container">
+      </div>
+
+
+    <script src="scripts/apiScript.js"></script>
+    <script src="scripts/singleEmployeeContainer.js"></script>
+    <script src="scripts/printAllEmployees.js"></script>
+    <script src="scripts/singleEmployeeObject.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
